@@ -245,9 +245,10 @@ html {
         margin-bottom: 50px;
     }
     .contacts__btn {
+        width: 100%;
         margin-bottom: 50px;
     }
     .contacts__box {
-        gap: 35px;
+        gap: 50px;
     }
 }
