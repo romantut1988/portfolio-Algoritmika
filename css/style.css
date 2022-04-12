@@ -130,7 +130,7 @@ html {
 }
 
 .contacts {
-    padding: 100px 0;
+    padding: 110px 0;
 }
 
 .contacts__networks {
@@ -168,7 +168,7 @@ html {
     display: flex;
     justify-content: center;
     gap: 60px;
-    margin-bottom: 45px;
+    margin-bottom: 50px;
 }
 
 .contacts__info {
@@ -231,5 +231,20 @@ html {
     }
     .skills__content {
         display: block;
+    }
+    .contacts {
+        padding: 80px 0;
+    }
+    .contacts__subtitle {
+        margin-bottom: 30px;
+    }
+    .contacts__text {
+        margin-bottom: 50px;
+    }
+    .contacts__btn {
+        margin-bottom: 50px;
+    }
+    .contacts__box {
+        gap: 50px;
     }
 }
