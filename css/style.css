@@ -190,6 +190,9 @@ html {
 }
 
 @media (max-width: 650px) {
+    .home {
+        padding-bottom: 80px;
+    }
     .home__content {
         display: block;
     }
@@ -204,5 +207,14 @@ html {
     }
     .home__images {
         height: 478px;
+    }
+    .about {
+        padding-top: 80px;
+    }
+    .about__subtitle {
+        margin-bottom: 30px;
+    }
+    .about__text {
+        width: 315px;
     }
 }
