@@ -126,7 +126,7 @@ html {
 .skills__info-text {
     align-items: center;
     display: flex;
-    margin-bottom: 55px;
+    margin-bottom: 40px;
 }
 
 .contacts {
@@ -216,5 +216,20 @@ html {
     }
     .about__text {
         width: 315px;
+    }
+    .skills {
+        padding-top: 80px;
+    }
+    .skills__info {
+        margin-bottom: 80px;
+    }
+    .skills__subtitle {
+        margin-bottom: 50px;
+    }
+    .skills__text {
+        margin-bottom: 70px;
+    }
+    .skills__content {
+        display: block;
     }
 }
