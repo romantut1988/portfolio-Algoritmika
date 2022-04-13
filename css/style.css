@@ -1,7 +1,8 @@
 html {
     box-sizing: border-box;
 }
-*,*::after,*::before{
+
+*, *::after, *::before {
     box-sizing: inherit;
 }
 
@@ -162,6 +163,7 @@ html {
     line-height: 22px;
     border-radius: 35px;
     margin-bottom: 85px;
+    cursor: pointer;
 }
 
 .contacts__box {
@@ -187,6 +189,7 @@ html {
     .menu__list {
         display: none;
     }
+
     .home__content {
         padding-top: 65px;
     }
@@ -196,59 +199,79 @@ html {
     .home {
         padding-bottom: 80px;
     }
+
     .home__content {
         display: block;
     }
+
     .home__title {
         margin-bottom: 20px;
     }
+
     .home__text {
         margin-bottom: 65px;
     }
+
     .home__img {
         display: none;
     }
+
     .home__images {
         height: 478px;
     }
+
     .about {
         padding-top: 80px;
     }
+
     .about__subtitle {
         margin-bottom: 30px;
     }
+
     .about__text {
         width: 100%;
     }
+
     .skills {
         padding-top: 80px;
     }
+
     .skills__info {
         margin-bottom: 80px;
     }
+
     .skills__subtitle {
         margin-bottom: 50px;
     }
+
     .skills__text {
         margin-bottom: 70px;
     }
+
     .skills__content {
         display: block;
     }
+
     .contacts {
         padding: 80px 0;
     }
+
     .contacts__subtitle {
         margin-bottom: 30px;
     }
+
     .contacts__text {
         margin-bottom: 50px;
     }
+
     .contacts__btn {
         width: 100%;
         margin-bottom: 50px;
     }
     .contacts__box {
-        gap: 50px;
+        display: flex;
+        justify-content: space-around;
+        gap: 0;
+        margin-bottom: 50px;
     }
 }
